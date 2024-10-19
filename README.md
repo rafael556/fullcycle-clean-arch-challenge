@@ -1,15 +1,25 @@
 # fullcycle-ddd-challenge
 
 ## Desafio 1:
-- Implementar testes restantes em order repository localizados em:
+- Use cases para Product localizados em:
 ```
-    src/infrastructure/checkout/repository/sequelize/order.repository.spec.ts
+    src/usecase/product
 ```
 
 ## Desafio 2:
-- Implementar eventos de domínio localizados em:
+- API de Products localizados em:
 ```
-src/domain/customer/event/customer.events.spec.ts
+    src/infrastructure/api
+```
+
+## Desafio 3 e 4:
+- Notification Pattern e validações em Products localizados em:
+```
+    src/domain/product/entity/product.ts
+    src/domain/product/entity/product.spec.ts
+
+    src/domain/product/factory/product.validator.factory.ts
+    src/domain/product/validator/product.yup.validator.ts
 ```
 
 ---
