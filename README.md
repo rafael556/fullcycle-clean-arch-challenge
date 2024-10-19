@@ -1,4 +1,4 @@
-# fullcycle-ddd-challenge
+# fullcycle clean architecture challenge
 
 ## Desafio 1:
 - Use cases para Product localizados em:
